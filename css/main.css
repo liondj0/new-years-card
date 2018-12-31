@@ -46,8 +46,8 @@ body {
 }
 p {
   position: absolute;
-  bottom: 3em;
-  right: 3em;
+  bottom: 1em;
+  right: 1em;
   font-family: "Charm";
   font-size: 3em;
   margin: 0;
@@ -96,5 +96,13 @@ p br {
 @media (max-width: 420px) {
   body {
     font-size: 8px;
+  }
+  body p {
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
   }
 }
